@@ -12,6 +12,8 @@ import com.wildcodeschool.wildandwizard.entity.Wizard;
 
 import util.JdbcUtils;
 
+import java.sql.*;
+
 public class WizardRepository {
 
     private final static String DB_URL = "jdbc:mysql://localhost:3306/spring_jdbc_quest?serverTimezone=GMT";
